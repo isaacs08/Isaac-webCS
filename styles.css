@@ -1,0 +1,54 @@
+/* styles.css */
+
+/* Colores reales de la bandera de Italia */
+:root {
+  --italia-verde:    #008C45;
+  --italia-blanco:   #FFFFFF;
+  --italia-rojo:     #CD212A;
+  --gris-bordes:     #ADB5BD;
+}
+
+/* Base */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--italia-blanco);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Header (verde) */
+.bg-italia-verde {
+  background-color: var(--italia-verde) !important;
+}
+
+/* Fondo blanco */
+.bg-italia-blanco {
+  background-color: var(--italia-blanco) !important;
+}
+
+/* Fondo rojo */
+.bg-italia-rojo {
+  background-color: var(--italia-rojo) !important;
+  color: #FFFFFF !important;
+}
+
+/* Bordes generales para las cards */
+.card {
+  border: 1px solid var(--gris-bordes);
+}
+
+/* Listas (ingredientes y pasos) */
+.list-group-item {
+  background-color: var(--italia-blanco) !important;
+  border: 1px solid var(--gris-bordes);
+  margin-bottom: 0.25rem;
+  border-radius: 2px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.9rem;
+}
+
+* {
+  border-width: 2px !important;
+}
